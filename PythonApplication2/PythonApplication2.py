@@ -1,5 +1,8 @@
-# -*- coding: utf-8 -*-
-sys.setdefaultencoding('utf-8')
+#! /usr/bin/env python 
+# -*- coding: utf-8 -*- 
+
+s = 'жпнд' 
+s.decode('utf-8').encode('gb18030') 
 from math import sin,cos
 import numpy as np
 from scipy.integrate import odeint
