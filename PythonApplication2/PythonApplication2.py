@@ -1,8 +1,7 @@
-#! /usr/bin/env python 
+##! /usr/bin/env python 
 # -*- coding: utf-8 -*- 
-
-s = '中文' 
-s.decode('utf-8').encode('gb18030') 
+s = '中文'  # 注意这里的 str 是 str 类型的，而不是 unicode 
+s.encode('gb18030') 
 from math import sin,cos
 import numpy as np
 from scipy.integrate import odeint
